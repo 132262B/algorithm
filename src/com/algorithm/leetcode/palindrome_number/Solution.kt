@@ -8,11 +8,9 @@ fun main() {
 }
 
 class Solution {
-
     fun isPalindrome(x: Int): Boolean {
-
-        val reversed = x.toString().reversed()
-        println(reversed)
-        return false
+        val a = x.toString()
+        val b = x.toString().reversed()
+        return a==b
     }
 }
