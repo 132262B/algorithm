@@ -1,2 +1,22 @@
 # 프로젝트 제외 경로
 /out/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Compiled files
+*.class
+/bin/
+/build/
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# OS Files
+.DS_Store
+Thumbs.db
